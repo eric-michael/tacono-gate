@@ -14,7 +14,7 @@ function App() {
         </div>
       </header>
       <div className="App-content">
-        <img src={image} alt="Tacono Gate" />
+        <img src={image} alt="Tacono Gate" className="main-image"/>
       </div>
     </div>
   );

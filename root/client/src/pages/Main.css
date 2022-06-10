@@ -1,0 +1,21 @@
+.main{
+    background-color: inherit;
+    min-height: inherit;
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+/*
+.main{
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}*/

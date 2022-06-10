@@ -1,5 +1,8 @@
+import { Route, Routes, Redirect } from "react-router";
+
 import "./App.css";
-import image from "./images/image0.jpg";
+
+import Main from "./pages/Main";
 
 function App() {
   return (
@@ -12,7 +15,9 @@ function App() {
         </div>
       </header>
       <div className="App-content">
-        <img src={image} alt="Tacono Gate" className="main-image" />
+        <Routes>
+          <Route path="/" element={<Main />} />
+        </Routes>
       </div>
     </div>
   );

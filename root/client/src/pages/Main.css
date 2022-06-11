@@ -1,12 +1,22 @@
 .main{
     background-color: inherit;
     min-height: inherit;
-    display: inherit;
+    display: inline-block;
     flex-direction: inherit;
-    align-items: inherit;
-    justify-content: inherit;
+/*     align-items: inherit; */
+    justify-content: space-evenly;
     font-size: inherit;
     color: inherit;
+    margin-top: 5%;
+}
+
+.main-image{
+    max-height: 70vh;
+    max-width: 60vw;
+}
+
+.main-playlist{
+
 }
 
 /*

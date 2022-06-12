@@ -4,6 +4,7 @@
   display: flex;
   font-size:larger;
   color: whitesmoke;
+  
 }
 
 .App-header-right{
@@ -12,10 +13,14 @@
 
 .App-header-right-unit{
   margin: 1em;
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .App-header-left{
   margin: 1em;
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .App-content {

@@ -1,23 +1,41 @@
 .main{
     background-color: inherit;
     min-height: inherit;
-    display: inline-block;
+    display: flex;
     flex-direction: inherit;
-/*     align-items: inherit; */
+    align-items: inherit; 
     justify-content: space-evenly;
     font-size: inherit;
     color: inherit;
-    margin-top: 5%;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
+.main-image-container{
+    display: inline-block;
+}
 .main-image{
     max-height: 70vh;
     max-width: 60vw;
+    display: inline-block;
+    object-fit: contain;
 }
 
 .main-playlist{
-
+    width: 40%;
+    display: inline-block;
 }
+
+@media (max-width: 800px) {
+    .main-playlist {
+      width:100%;
+    }
+    .main-image{
+        margin:auto;
+        display: block;
+        max-width: 85vw;
+    }
+  }
 
 /*
 .main{

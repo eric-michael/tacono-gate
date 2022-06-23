@@ -1,0 +1,5 @@
+/* Make links appear as if they're normal text */
+.link{
+    text-decoration: none;
+    color: black;
+}

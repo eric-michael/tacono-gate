@@ -26,6 +26,17 @@
     display: inline-block;
 }
 
+@media (max-width: 800px) {
+    .main-playlist {
+      width:100%;
+    }
+    .main-image{
+        margin:auto;
+        display: block;
+        max-width: 85vw;
+    }
+  }
+
 /*
 .main{
     background-color: #282c34;

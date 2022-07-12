@@ -28,7 +28,12 @@ function App() {
           <Link to="/contact" className="App-header-right-unit">
             Contact
           </Link>
-          {/* <span className="App-header-right-unit">Merch</span> */}
+          <a
+            href="https://taconogate.myshopify.com/"
+            className="App-header-right-unit"
+          >
+            Merch
+          </a>
         </div>
       </header>
       <div className="App-content">

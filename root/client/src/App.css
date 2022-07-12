@@ -48,6 +48,11 @@
   .App-content {
     flex-direction: column;
   }
+  .App-header {
+    flex-direction: column;
+    justify-content: unset;
+    align-items: center;
+  }
 }
 
 .main-image{
